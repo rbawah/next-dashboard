@@ -82,6 +82,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
+import entryPic from '../../public/portfolio/hike_photo.jpg'
 
 export default function Entry2() {
   const router = useRouter();
@@ -156,7 +157,7 @@ export default function Entry2() {
 
         <div className="w-1/2 flex flex-col items-center justify-center">
           <Image
-            src="/portfolio/hike_photo.jpg"
+            src={entryPic}//"/portfolio/hike_photo.jpg"
             alt="Entry0 Image"
             width={400}
             height={400}
