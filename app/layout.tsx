@@ -31,9 +31,29 @@ import Sidebar from './components/Sidebar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'My Portfolio',
+  title: 'My Portfolio - ENGG 687',
   description: 'Personal Portfolio',
 };
+
+// export default function RootLayout({
+//   children,
+// }: {
+//   children: React.ReactNode;
+// }) {
+//   return (
+//     <html lang="en">
+//       <body className={inter.className}>
+//         <div className="flex min-h-screen">
+//           <Sidebar />
+//           <div className='pt-10'>
+//             <main className="flex-1 p-8">{children}</main>
+//           </div>
+//         </div>
+//       </body>
+//     </html>
+//   );
+// }
+
 
 export default function RootLayout({
   children,
@@ -45,9 +65,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="flex min-h-screen">
           <Sidebar />
-          <div className='pt-10'>
-            <main className="flex-1 p-8">{children}</main>
-          </div>
+          <main className="flex-1 p-8 min-h-screen">{children}</main>
         </div>
       </body>
     </html>
