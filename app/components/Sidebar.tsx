@@ -58,12 +58,12 @@ export default function Sidebar() {
           </Link>
         </li>
         <li className={`${pathname === '/entry10' ? 'bg-gray-400' : ''} mb-2`}>
-          <Link href="/entry10" className={`${pathname === '/entry10' ? 'text-blue-700 font-bold' : 'text-blue-500'} hover:underline capitalize`}>
+          <Link href="/entry8" className={`${pathname === '/entry10' ? 'text-blue-700 font-bold' : 'text-blue-500'} hover:underline capitalize`}>
             entry10
           </Link>
         </li>
         <li className={`${pathname === '/entry11' ? 'bg-gray-400' : ''} mb-2`}>
-          <Link href="/entry11" className={`${pathname === '/entry11' ? 'text-blue-700 font-bold' : 'text-blue-500'} hover:underline capitalize`}>
+          <Link href="/entry8" className={`${pathname === '/entry11' ? 'text-blue-700 font-bold' : 'text-blue-500'} hover:underline capitalize`}>
             entry11
           </Link>
         </li>
