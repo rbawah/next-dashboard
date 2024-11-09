@@ -105,7 +105,7 @@ export default function Entry5() {
           <Image
             src="/portfolio/eu-ai-act.png"
             alt="Entry3 Image"
-            width={700}
+            width={500}
             height={400}
           />
           <p>The 4 types of risks as defined in the EU AI act.</p>

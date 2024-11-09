@@ -38,7 +38,7 @@ export default function Entry12() {
           <Image
             src="/portfolio/hackathon.jpeg"
             alt="Entry12 Image"
-            width={800}
+            width={500}
             height={400}
           />
           <p>Hackathon meme by 'Derek Ferguson' on LinkedIn</p>

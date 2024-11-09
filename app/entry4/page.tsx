@@ -108,7 +108,7 @@ export default function Entry4() {
           <Image
             src="/portfolio/entry4.png"
             alt="Entry2 Image"
-            width={600}
+            width={500}
             height={400}
           />
           <p>Diagram by <a href='https://ipcaknowledgebasket.ca/enacting-and-operationalizing-ethical-space-and-two-eyed-seeing-in-indigenous-protected-and-conserved-areas-and-crown-protected-and-conserved-areas/'

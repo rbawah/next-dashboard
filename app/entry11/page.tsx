@@ -42,13 +42,16 @@ export default function Entry11() {
 
         <div className="w-1/2 flex flex-col items-center justify-center">
           <Image
-            src="/portfolio/BMS-W700.webp"
+            src="/portfolio/looking-back-2.webp"
             alt="Entry11 Image"
-            width={800}
+            width={500}
             height={400}
           />
-          <p>Caption</p>
-          <p>Reference</p>
+          <p>
+            AI generated on <a href="https://chatgpt.com/" className='text-blue-500 hover:text-red-500'>https://chatgpt.com/ </a>
+            Generated on November 9, 2024
+            using all text on this slide in the prompt.
+          </p>
         </div>
       </div>
       <div className="flex justify-between items-center p-4">
